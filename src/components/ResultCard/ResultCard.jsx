@@ -68,24 +68,3 @@ const ResultCard = ({ dataWeather }) => {
 };
 
 export default ResultCard;
-
-// "Temp: " {(dataWeather.main.temp - 273.15).toFixed(0)}
-// "Temp Max: " {(dataWeather.main.temp_max - 273.15).toFixed(0)}
-// "Temp Min: " {(dataWeather.main.temp_min - 273.15).toFixed(0)}
-// "Humidity: " {dataWeather.main.humidity}
-// "City: " {dataWeather.name}
-// "Description: " {dataWeather.weather[0].description}
-// "Wind Speed: " {dataWeather.wind.speed}
-// "Icône": {dataWeather.weather[0].} 
-
-/*
-ciel dégagé = soleil.png OK
-peu nuageux = partiellement-nuageux.png
-scattered clouds = nuages dispersés = partiellement-nuageux.png OK
-couvert =  nuage.png OK
-nuageux = nuage.png OK
-légère pluie = averses-éparses.png
-moderate rain = pluie modérée = averses-éparses.png
-bruine légère = averses-éparses.png
-forte pluie = pluvieux.png
-*/
